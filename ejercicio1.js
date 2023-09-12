@@ -3,7 +3,7 @@ console.log("EJERCICIO 1 -----------");
 function firstPromise(){
     return new Promise((resolve, reject) => {
         setTimeout(()=>{
-            resolve(Math.floor((Math.random() * 10) + 1))
+            resolve(Math.floor((Math.random() * 100) + 1))
         }, 2000)
     })
 }
